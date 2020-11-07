@@ -1,4 +1,4 @@
 # My-Photo
-PhotoGraphySide 
+PhotoGraphySite 
 
-Host Url:
+Host Url: https://umeshmore45.github.io/My-Photo/index.html
