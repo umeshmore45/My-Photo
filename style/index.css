@@ -1,0 +1,220 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+
+
+.banner-container{
+height: 49vw;
+width: 100%;
+margin:0;
+padding:0px;
+color: white;
+background-image: url("../IMg/banner.jpg");
+background-size:cover ;
+
+/*border: 2px solid red;*/
+
+}
+
+
+
+
+
+
+.banner-container-tag {
+    padding-bottom:5vh ;
+}
+
+.navigation{
+    
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+
+.logo img{
+    height:4vw ;
+    width: 4vw;
+    padding-top:  4vh; 
+    padding-left:6vw ;
+   
+} 
+
+
+.logo img:hover{
+    height: 4.1vw;
+    width: 20.5%;
+    margin:0px ;
+}
+
+li a{
+    text-decoration:none ;
+   /* color: rgb(133, 88, 179);*/
+}
+
+
+
+
+.navi-container{
+    color:rgb(133, 88, 179);
+    list-style-type:none;
+    text-align: right;
+    font-size: 2vw;
+    padding-right: 10vw;
+    
+    
+
+}
+
+
+
+.navi-item{
+    display: inline;
+    margin:3vw ;
+    
+}
+
+.navi-item:hover{
+    border-color: brown;
+    border-bottom:3px solid white;
+}
+
+
+
+.banner-content{
+    /*display:flex;
+    flex-direction: column;
+    justify-content: center;*/
+    text-align: center;
+    width: 100%;
+    height:46 vh;
+    background-color:#6e869599;
+ /*  margin-top:10vh ;*/
+    padding-top:10vh;
+    padding-bottom:5vh ;
+    
+}
+
+
+
+
+
+.banner-heading{
+    padding-bottom:0.5vh ;
+   
+    color:#071a1a;
+    font-size: 4.0vw;
+   
+}
+
+
+.stickey-header{
+position: sticky;
+background-color:#000000;
+padding:8px;
+border:2px solid red;
+width:100%;
+}
+
+.main-content{
+margin:0px;
+ background-image: url('../IMg/banner2.jpg');
+ 
+ background-size:cover ;
+ background-attachment:fixed;
+ border:2px solid #000;
+ color: #ffffff;
+ display: justify;
+ 
+ /*height: 150vh;*/
+}
+
+
+.flex{
+   /*border:2px solid red;*/
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.main-heading{
+  
+    width: 60%;
+}
+
+
+
+.main-content > h1{
+    text-align: center;
+    
+}
+
+.main-heading > p1{
+    font-size: 3vh;
+
+    text-align: justify;
+}
+
+
+.footer{
+    background-color: #ffffff;
+    height: 10vh;
+    width: 100%;
+}
+
+.footer-container{
+    padding-top: 1vh;
+    display:flex;
+   justify-content: center; 
+   
+
+}
+
+.footer-container > i{
+    margin-left: 4vw;
+   padding-top:1vw ;
+   
+}
+
+.footer > p{
+    text-align: center;
+} 
+
+.aside{
+    /*background-color: yellow;*/
+    width: 30%;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin-left:10% ;
+
+}
+
+.aside > img{
+  
+    width: 23vw;
+    height: 23vh;
+    
+   
+    
+}
+
+.top {
+    padding-left:90vw ;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* lets talk
+#lets-talk{
+    border:2px solid white ;
+    background-color:white ;
+    padding: 0.5vw;
+}
+*/
