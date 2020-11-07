@@ -33,14 +33,14 @@ background-size:cover ;
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    
+    padding-top:  4vh; 
 }
 
 
 .logo img{
     height:4vw ;
     width: 4vw;
-    padding-top:  4vh; 
+    padding-top:1vh ;
     padding-left:6vw ;
    
 } 
@@ -207,6 +207,7 @@ margin:0px;
     padding-left:90vw ;
     text-decoration: none;
     color: black;
+    display: inline;
 }
 
 
